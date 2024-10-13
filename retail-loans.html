@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Emirates Islamic Investment PJSC</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="vendors/overlayscrollbars/OverlayScrollbars.min.js"></script>
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="vendors/prism/prism.css" rel="stylesheet">
+    <link href="vendors/hamburgers/hamburgers.min.css" rel="stylesheet">
+    <link href="vendors/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="assets/css/theme.min.css" rel="stylesheet" />
+    <link href="assets/css/user.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=Open+Sans:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
+	<script src="assets/js/jquery.js"></script>
+	 <script>
+    $(function(){
+	
+	footlinklead()
+	
+		function headlead() {
+		  return new Promise((resolve, reject) => {
+			resolve($("#headBrunch").load("_head.html"))
+		  });
+		}
+		async function footlead() {
+		  await headlead()
+		  return new Promise((resolve, reject) => {
+			resolve($("#footBrunch").load("_foot.html"))
+		  });
+		}
+		async function footlinklead() {
+		  await footlead()
+		  return new Promise((resolve, reject) => {
+			resolve($("#footLink").load("_footlink.html"))
+		  });
+		}
+		
+		async function phasereaveal() {
+		  await footlinklead()
+		  return new Promise((resolve, reject) => {
+			setTimeout(() => {
+			resolve( document.querySelector(".preloader").style.display = "none")
+			}, 3000);
+		  });
+		}
+    });
+  </script>
+  </head>
+
+  <body>
+    <div id="headBrunch"></div>
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section>
+      <div class="bg-holder overlay" style="background-image:url(assets/img/background-2.jpg);background-position:center bottom;"></div>
+      <!--/.bg-holder-->
+      <div class="container">
+        <div class="row pt-6" data-inertia='{"weight":1.5}'>
+          <div class="col-md-8 text-white" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+            <div class="overflow-hidden">
+              <h1 class="text-white fs-4 fs-md-5 mb-0 lh-1" data-zanim-xs='{"delay":0}'>Retail Loans</h1>
+              <div class="nav" aria-label="breadcrumb" role="navigation" data-zanim-xs='{"delay":0.1}'>
+                <ol class="breadcrumb fs-1 ps-0 fw-bold">
+                  <li class="breadcrumb-item"><a class="text-white" href="./">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Retail Loans</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <div class="preloader" id="preloader">
+        <div class="loader">
+          <div class="line-scale">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="bg-100">
+        <div class="container">
+          <div class="row align-items-stretch justify-content-center mb-4">
+            <h5>Retail Loans</h5>
+          </div>
+          <div class="card mb-4">
+            <div class="card-body p-5 h-100">
+			<h5>Tawheed al doyun (buyout loan)</h5>
+			<p>Take control of your borrowings by consolidating your loans into a single loan! Apply now for our loan buyout product and enjoy additional funds, lower interest rates, and lower monthly installment</p>
+               <ul>
+			<li>Loan amounts up to AED 300,000</li>
+			<li>Interest rate starting from 14% on the reducing balance</li>
+			<li>Up to 48 months / 60 months for Armed Forces &amp; Police</li>
+			<li>No salary transfer required</li>
+			<li>Fast approval process</li>
+			</ul>
+            </div>
+			<div class="card-body p-5 h-100">
+			<h5>Tajmeel Loan</h5>
+			<p>Look and feel at your best at all times. Finance all your cosmetic and beauty expenses through our innovative Tajmeel loan</p>
+               <ul>
+			<li>Loan amount up to AED 50,000</li>
+			<li>Interest rate starting from 14% on the reducing balance</li>
+			<li>Up to 24 months of repayment</li>
+			<li>No salary transfer required</li>
+			<li>Fast approval process</li>
+			</ul>
+            </div>
+			<div class="card-body p-5 h-100">
+			<h5>Safar Loan</h5>
+			<p>Roam the world now without any concern. Finance all your travel expenses through Al Ain Finance Safar loan.</p>
+               <ul>
+			<li>Loan amount up to AED 50,000</li>
+			<li>Interest rate starting from 14% on the reducing balance</li>
+			<li>Up to 12 months of repayment</li>
+			<li>No salary transfer required</li>
+			<li>Fast approval process</li>
+			</ul>
+            </div>
+			<div class="card-body p-5 h-100">
+			<h5>Taleem Loan</h5>
+			<p>Back to school can be daunting and costly. Pay all your back-to-school expenses through Al Ain Finance Taleem loan.</p>
+               <ul>
+			<li>Loan amount up to AED 25,000</li>
+			<li>Interest rate starting from 14% on the reducing balance</li>
+			<li>Up to 12 months of repayment</li>
+			<li>No salary transfer required</li>
+			<li>Fast approval process</li>
+			</ul>
+            </div>
+			<div class="card-body p-5 h-100">
+			<h5>Amala Musaada Loan</h5>
+			<p>Get the support you need in your daily activities. Hire a domestic helper now and pay all the fees and charges through Al Ain Finance Amala Musaada Loan</p>
+               <ul>
+			<li>Loan amount up to AED 25,000</li>
+			<li>Interest rate starting from 14% on the reducing balance</li>
+			<li>Up to 24 months of repayment</li>
+			<li>No salary transfer required</li>
+			<li>Fast approval process</li>
+			</ul>
+            </div>
+			<div class="card-body p-5 h-100">
+			<h5>Required documents</h5>
+			
+               <ul>
+			<li>Copy of passport, EID, &amp; residency</li>
+			<li>Salary certificate</li>
+			<li>Account statement for the last 3 months</li>
+			<li>Security cheque</li>
+			</ul>
+            </div>
+          </div>
+          
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+    </main><!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+	<div id="footBrunch"></div>
+	<div id="footLink"></div>
+
+  </body>
+
+</html>
